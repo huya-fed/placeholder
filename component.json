@@ -1,0 +1,6 @@
+{
+    "repos": "https://github.com/mathiasbynens/jquery-placeholder",
+    "version": "v1.0.0",
+    "name": "placeholder",
+    "main": "placeholder.js"
+}
