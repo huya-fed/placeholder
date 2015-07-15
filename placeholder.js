@@ -255,10 +255,8 @@
         }
     };
 
-    if (typeof module !== 'undefined' && module.exports) {
+    if (typeof dwfis !== "undefined" && typeof dwfis.define === "function") {
         module.exports = placeholder;
-    } else if (typeof define === 'function' && define.cmd) {
-        define(function(){return placeholder;});
     } else {
         (function(){ return this || (0,eval)('this'); }()).placeholder = placeholder;
     }
